@@ -1,9 +1,19 @@
+.container-fluid {
+  background-color: #242b2e;
+}
+.menu-shadow {
+  -webkit-box-shadow: 11px 3px 42px 5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 11px 3px 42px 5px rgba(0,0,0,0.75);
+  box-shadow: 11px 3px 42px 5px rgba(0,0,0,0.75);
+  z-index: 1;
+}
 .logo {
   height: 125px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  background-color: #fff;
   h1 {
     font-size: 46px;
   }
@@ -16,12 +26,50 @@
     justify-content: end;
     li {
       background-image: url("../img/bg.png");
-      width: 240px;
+      width: 100%;
       height: 62px;
       a {
         display: flex;
         justify-content: end;
+        color: rgba(255, 255, 255, 0);
+        font-size: 18px;
+        font-weight: 100;
+        line-height: 32px;
+        text-align: right;
+        text-transform: uppercase;
       }
     }
+  }
+}
+
+.second-menu {
+  ul {
+    list-style: none;
+    li {
+      a {
+        font-size: 12px;
+        color: #6b7072;
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.menu {
+  ul {
+    li:hover {
+      background-image: url("../img/bg-lightgreen.png");
+    }
+  }
+}
+
+.footer {
+  p {
+    color: #6b7072;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 25px;
   }
 }
