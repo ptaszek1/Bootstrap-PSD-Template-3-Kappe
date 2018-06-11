@@ -1,0 +1,61 @@
+.work-main {
+  background-image: url("../img/bg-work.png");
+  .work-col1 {
+    display: flex;
+    flex-wrap: wrap;
+    img {
+      padding: 10px 0 10px 0;
+    }
+    .work-info {
+      h2 {
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 26px;
+        text-align: left;
+      }
+      p {
+        color: #a3a3a3;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 30px;
+        text-align: left;
+        padding: 15px 0 15px 0;
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+      }
+    }
+    .work-projects {
+      h2 {
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 26px;
+        text-align: left;
+      }
+    }
+  }
+  .work-col2 {
+    img {
+      padding: 10px 0 10px 0;
+    }
+  }
+}
+.project-info {
+  i {
+    color: #1ab5b3;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  h2 {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 26px;
+    text-align: left;
+  }
+  .person {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .heart {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}

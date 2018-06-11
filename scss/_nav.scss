@@ -40,6 +40,9 @@
         line-height: 32px;
         text-transform: uppercase;
       }
+      &:hover {
+        background-image: url("../img/bg-lightgreen.png");
+      }
     }
   }
 }
@@ -55,14 +58,6 @@
           color: #fff;
         }
       }
-    }
-  }
-}
-
-.menu {
-  ul {
-    li:hover {
-      background-image: url("../img/bg-lightgreen.png");
     }
   }
 }
