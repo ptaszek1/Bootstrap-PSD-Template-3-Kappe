@@ -28,7 +28,6 @@
         font-size: 24px;
         font-weight: 300;
         line-height: 26px;
-        text-align: left;
       }
     }
   }
@@ -43,19 +42,67 @@
     color: #1ab5b3;
     font-size: 12px;
     font-weight: 400;
+    padding: 5px;
   }
   h2 {
     font-size: 24px;
     font-weight: 300;
     line-height: 26px;
     text-align: left;
+    margin-top: 10px;
   }
   .person {
     display: flex;
     flex-wrap: nowrap;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin-top: 10px;
   }
   .heart {
     display: flex;
     flex-wrap: nowrap;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin-top: 10px;
+  }
+  .gift {
+    display: flex;
+    flex-wrap: nowrap;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin-top: 10px;
+  }
+  .clip {
+    display: flex;
+    flex-wrap: nowrap;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin-top: 10px;
+  }
+}
+.project-gallery {
+  h2 {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 26px;
+    text-align: left;
+  }
+}
+.project-features {
+  h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 26px;
+    text-align: left;
+  }
+  p {
+    color: #a3a3a3;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+    i {
+      color: #848484;
+      font-size: 14px;
+      margin-right: 5px;
+    }
   }
 }
