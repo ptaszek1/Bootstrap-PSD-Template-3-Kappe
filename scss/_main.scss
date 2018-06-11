@@ -1,9 +1,10 @@
 .main {
   height: 1000px;
-  background-color: #fff;
+  background-color: #242b2e;
   .col-3 {
-    border: 2px solid black;
     width: 405px;
-    height: 311px;
+  }
+  img {
+    width: 100%;
   }
 }
