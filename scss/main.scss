@@ -1,6 +1,13 @@
 @import "_nav.scss";
 @import "_work.scss";
 @import "_about.scss";
+@import "_contact.scss";
+
+.main {
+  img {
+    width: 100%;
+  }
+}
 
 body {
   font-family: 'Roboto',sans-serif !important;
