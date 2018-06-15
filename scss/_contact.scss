@@ -24,7 +24,7 @@
   .contact-input {
     display: flex;
     flex-wrap: nowrap;
-    border: 1px solid black;
+    border: 1px solid rgba(0,0,0,0.2);
     margin-bottom: 10px;
     .contacct-icon-circle {
       width: 70px;
@@ -32,7 +32,7 @@
     i {
       display: flex;
       padding: 20px;
-      border-right: 1px solid black;
+      border-right: 1px solid rgba(0,0,0,0.2);
       font-size: 20px;
       color: #1ab5b3;
     }
@@ -41,6 +41,25 @@
       width: 100%;
       height: 55px;
       padding: 0 0 0 10px;
+    }
+  }
+  .contact-textarea {
+    border: 1px solid rgba(0,0,0,0.2);
+    height: 135px;
+    textarea {
+      height: 100%;
+      width: 100%;
+      border: none;
+      resize: none;
+      padding: 10px;
+    }
+    button {
+      background-color: #1ab5b3;
+      width: 100%;
+      border: none;
+      color: #fff;
+      padding: 18px;
+      margin-top: 10px;
     }
   }
 }
